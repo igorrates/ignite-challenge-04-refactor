@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components';
+import { IInputProps } from '../../models/InputProps';
 
-export const Container = styled.div`
+export const Container = styled.div<Pick<IInputProps,"isFilled" | "isFocused">>`
   display: flex;
   align-items: center;
 
