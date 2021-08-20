@@ -1,7 +1,7 @@
 export interface IInputProps {
-    isFocused: boolean;
-    isFilled: boolean;
+    isFocused?: boolean;
+    isFilled?: boolean;
     name: string;
     placeholder: string;
-    icon: any;
+    icon?: any;
  }
