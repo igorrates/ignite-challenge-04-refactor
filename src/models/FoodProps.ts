@@ -1,8 +1,8 @@
-import { Food } from "./Food";
+import { FoodModel } from "./FoodModel";
 
 export interface FoodProps {
-    food: Food;
-    handleEditFood: (food: Food) => void;
+    food: FoodModel;
+    handleEditFood: (food: FoodModel) => void;
     handleDelete: (foodId: number) => void;
-    available: boolean;
+    available?: boolean;
 }
